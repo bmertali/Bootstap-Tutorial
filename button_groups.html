@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Button Groups</title>
+  </head>
+  <body>
+   <h1 class="mt-2 border text-capitalize">button groups</h1>
+    <div class="container">
+      <h2>Button Groups</h2>
+      <div class="btn-group">
+        <button type="button" class="btn btn-primary">Apple</button>
+        <button type="button" class="btn btn-primary">Samsung</button>
+        <button type="button" class="btn btn-primary">Sony</button>
+      </div>
+    </div>
+    <br><hr>
+    <div class="container">
+      <h2>Small Button Groups</h2>
+      <div class="btn-group-sm">
+        <button type="button" class="btn btn-primary">Apple</button>
+        <button type="button" class="btn btn-primary">Samsung</button>
+        <button type="button" class="btn btn-primary">Sony</button>
+      </div>
+    </div>
+    <br><hr>
+    <div class="container">
+      <h2>Vertical Button Groups</h2>
+      <div class="btn-group-vertical btn-group-sm">
+        <button type="button" class="btn btn-primary">Apple</button>
+        <button type="button" class="btn btn-primary">Samsung</button>
+        <button type="button" class="btn btn-primary">Sony</button>
+      </div>
+    </div>
+    <br><hr>
+    <div class="container">
+      <h2>Nesting Button Groups</h2>
+      <p>Nest button groups to create dropdown menus:</p>
+      <div class="btn-group">
+        <button type="button" class="btn btn-primary">Apple</button>
+        <button type="button" class="btn btn-primary">Samsung</button>
+        <div class="btn-group">
+          <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+          Sony
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Tablet</a>
+            <a class="dropdown-item" href="#">Smartphone</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br><hr>
+    <div class="container">
+      <h2>Split Buttons</h2>
+      <div class="btn-group">
+        <button type="button" class="btn btn-primary">Sony</button>
+        <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+          <span class="caret"></span>
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Tablet</a>
+          <a class="dropdown-item" href="#">Smartphone</a>
+        </div>
+      </div>
+    </div>
+    
+  </body>
+</html>
